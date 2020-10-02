@@ -1,0 +1,74 @@
+/* font-family: 'Averia Serif Libre', cursive;
+font-family: 'Crafty Girls', cursive;
+font-family: 'Delius Swash Caps', cursive;
+font-family: 'Delius Unicase', cursive;
+font-family: 'Flavors', cursive;
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Rock Salt', cursive;*/
+
+.navbar-brand {
+    font-family: 'Rock Salt', cursive;
+}
+
+.nav-link {
+    font-family: 'Delius Unicase', cursive;
+}
+
+.dropdown-item {
+    font-family: 'Mali', cursive;
+}
+
+
+body { 
+    background: url(./assets/sven-scheuermeier-saGbrA6s8g0-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+    
+section .RJV-container {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    }
+
+#mini-bio {
+    border-width: 2px;
+    border: solid 2px white;
+}
+
+#bio-card {
+    width: 100%;
+}
+
+/* Contact Page Styles */
+
+#contact-form {
+    background: url("./assets/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
+    padding: 30px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#form-header {
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.container {
+    width: 100%;
+}
+
+.portfolio-thumb {
+    margin: 15px;
+}
+
+.thumbnails {
+    margin-left: 20px;
+}
+
+
+
