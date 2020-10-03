@@ -29,7 +29,7 @@ header {
 
 /* background image for all HTML files */
 body { 
-    background: url("./assets/images/sven-scheuermeier-saGbrA6s8g0-unsplash.jpg") no-repeat center center fixed; 
+    background: url(./images/sven-scheuermeier-saGbrA6s8g0-unsplash.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,7 +40,7 @@ body {
 /* container for page's content */
 .RJV-container {
     width: 100%;
-    height: 100%;
+    height: 80%;
     position: absolute;
     z-index: 1;
     background-color: ;
@@ -71,7 +71,7 @@ body {
 /* Contact Page Styles */
 
 #contact-form {
-    background: url("./assets/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
+    background: url("./images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
     padding: 30px;
     margin-top: 50px;
     width: 100%;
@@ -81,7 +81,12 @@ body {
     font-family: 'Delius Swash Caps', cursive;
 }
 
-.container {
+.container-Contact {
+    width: 100%;
+}
+
+/* Portfolio Page Styles */
+.container-Portfolio {
     width: 100%;
 }
 
@@ -94,7 +99,7 @@ body {
 }
 
 .d-block .w-100 {
-display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
 }
