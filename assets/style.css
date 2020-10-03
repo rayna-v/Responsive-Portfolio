@@ -14,14 +14,20 @@ font-family: 'Rock Salt', cursive;*/
 /* navbars for all HTML files */
 .navbar-brand {
     font-family: 'Rock Salt', cursive;
+    font-size: 36px;
 }
 
 .nav-link {
     font-family: 'Delius Unicase', cursive;
+    font-size: 20px;
 }
 
+.navbar-collapse{
+    
+}
 .dropdown-item {
     font-family: 'Mali', cursive;
+    font-size: 20px;
 }
 
 /* background image for all HTML files */
@@ -76,9 +82,11 @@ header {
     width: 100%;
     border: solid white 4px;
 }
+
 #contact-form h2 {
     font-size: 36px;
 }
+
 #contact-form h4 {
     font-family: 'Mali', cursive;
 }
@@ -99,7 +107,7 @@ header {
 
 /* Portfolio Page Styles START*/
 .jumbotron {
-    background: url("./images-RJV/Victory-Mountain5.jpg");
+    background: url("./images-RJV/Victory-Mountain2.jpg");
 }
 
 .wrapper {
@@ -113,6 +121,12 @@ header {
 
 .display-4 {
     color: white;
+}
+
+.card-portfolio {
+    width: 75%;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 /* Portfolio Page Styles END */
@@ -136,5 +150,12 @@ header {
 
 /* footer */
 
+footer .foot {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 16px;
+}
 
+.RJV-footer{
+   background-color: teal;
+}
 
