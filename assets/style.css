@@ -80,7 +80,6 @@ header {
     background: url("./images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
     padding: 25px;
     margin-top: 32px;
-    margin-left: 30px;
     width: 100%;
     border: solid white 6px;
 }
@@ -91,6 +90,7 @@ header {
 
 #contact-form h4 {
     font-family: 'Mali', cursive;
+    font-size: 16px;
 }
 
 #form-header {
@@ -103,12 +103,14 @@ header {
 }
 .contact-card {
     margin-top: 30px;
-    padding: 5px;
-    margin-left: 30px;
+    margin-left: 60px;
+    font-size: 14px;
+    border: solid white 4px;
 }
 
 .contact-icons {
     margin-right: 10px;
+    float: left;
 }
 /* Contact Page Styles END*/
 
@@ -120,7 +122,7 @@ header {
     }
 
     .wrapper {
-        width: 60%;
+        width: 70%;
     }
 
     .display-4 {
@@ -129,7 +131,7 @@ header {
 
     .jumbotron p {
         color: white;
-        font-family: 'Vollkorn SC', serif;
+        font-family: 'Krub', sans-serif;
     }
     /* Jumbotron END */
 
@@ -139,9 +141,13 @@ header {
         margin-top: 20px;
         border: solid 4px white;
     }
-
+    
+    .card-title {
+        font-family: 'Averia Serif Libre', cursive;
+    }
     .card-text {
-        font-size: 14px;
+        font-size: 16px;
+        font-family: 'Krub', sans-serif;
     }
     /* Cards with image and captions END */
 
