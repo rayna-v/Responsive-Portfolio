@@ -45,14 +45,13 @@ body {
 header {
     color: white;
     font-family: 'Vollkorn SC', serif;
+    margin-left: 20px;
 }
     /* container for page's content */
 .RJV-container {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    margin-top: 40px;
+    margin-top: 20px;
+    padding-bottom: 100px;
     }
 
     /* left content of container for index HTML file */
@@ -84,6 +83,7 @@ header {
     background: url("./images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
     padding: 25px;
     margin-top: 32px;
+    margin-left: 30px;
     width: 100%;
     border: solid white 6px;
 }
@@ -107,6 +107,7 @@ header {
 .contact-card {
     margin-top: 30px;
     padding: 5px;
+    margin-left: 30px;
 }
 
 .contact-icons {
@@ -133,7 +134,7 @@ header {
 }
 
 .card-portfolio {
-    width: 75%;
+    width: 100%;
     margin-bottom: 20px;
     margin-top: 40px;
 }
@@ -147,26 +148,15 @@ header {
     margin: 15px;
 }
 
-.thumbnails {
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
-/* 
-.d-block .w-100 {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* footer */
-
 footer .foot {
     font-family: 'Vollkorn SC', serif;
     font-size: 16px;
     color: teal;
+
 }
 
-.RJV-footer{
-   background-color: teal;
-}
-
+/* @media screen and (max-width: 1600px) {
+    .contact-card {
+        width: 10%;
+    }
+} */
