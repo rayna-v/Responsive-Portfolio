@@ -14,12 +14,12 @@ font-family: 'Rock Salt', cursive;*/
 /* navbars for all HTML files */
 .navbar-brand {
     font-family: 'Rock Salt', cursive;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .nav-link {
     font-family: 'Delius Unicase', cursive;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .navbar-collapse{
@@ -72,15 +72,20 @@ header {
     width: 100%;
     border: solid white 4px;
 }
+.captions {
+    background-color: teal;
+    color: white;
+    padding: 30px;
+}
 /* Index/Home Page START */ 
 
 /* Contact Page Styles START*/
 #contact-form {
     background: url("./images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
     padding: 25px;
-    margin-top: 40px;
+    margin-top: 32px;
     width: 100%;
-    border: solid white 4px;
+    border: solid white 6px;
 }
 
 #contact-form h2 {
@@ -102,6 +107,10 @@ header {
 .contact-card {
     margin-top: 30px;
     padding: 5px;
+}
+
+.contact-icons {
+    margin-right: 10px;
 }
 /* Contact Page Styles END*/
 
@@ -140,6 +149,7 @@ header {
 
 .thumbnails {
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 /* 
 .d-block .w-100 {
@@ -153,6 +163,7 @@ header {
 footer .foot {
     font-family: 'Vollkorn SC', serif;
     font-size: 16px;
+    color: teal;
 }
 
 .RJV-footer{
