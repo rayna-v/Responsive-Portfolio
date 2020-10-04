@@ -43,7 +43,6 @@ body {
 header {
     color: white;
     font-family: 'Vollkorn SC', serif;
-    margin-left: 20px;
 }
     /* container for page's content */
 .RJV-container {
@@ -57,12 +56,7 @@ header {
     border: solid 4px white;
     background-color: white;
 }
-
-#bio-card {
-    width: 100%;
-    margin-bottom: 0px;
-}
-
+ 
     /*right content of container for index HTML file (carousel)*/
 .carousel {
     width: 100%;
