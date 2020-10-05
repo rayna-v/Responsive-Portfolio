@@ -10,64 +10,77 @@ font-family: 'Rock Salt', cursive;*/
 /* font-family: 'Vollkorn SC', serif; */
 
 
+/* STYLES FOR ALL FILES (NAV, BACKGROUND, FOOTER) START */
+    /* NAVBARS for all HTML files START*/
 
-/* navbars for all HTML files */
+    .navbar-brand {
+        font-family: 'Rock Salt', cursive;
+        font-size: 24px;
+    }
 
-.navbar-brand {
-    font-family: 'Rock Salt', cursive;
-    font-size: 24px;
-}
+    .nav-link {
+        font-family: 'Delius Unicase', cursive;
+        font-size: 16px;
+    }
 
-.nav-link {
-    font-family: 'Delius Unicase', cursive;
-    font-size: 16px;
-}
+    .dropdown-item {
+        font-family: 'Mali', cursive;
+        font-size: 16px;
+    }
+    /* NAVBARS for all HTML files END*/
 
-.dropdown-item {
-    font-family: 'Mali', cursive;
-    font-size: 16px;
-}
+    /* BACKGROUND image for all HTML files START*/
+    body { 
+        background: url(./images/sven-scheuermeier-saGbrA6s8g0-unsplash.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: -1;
+    }
+    /* BACKGROUND image for all HTML files END*/
 
-/* background image for all HTML files */
-body { 
-    background: url(./images/sven-scheuermeier-saGbrA6s8g0-unsplash.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    z-index: -1;
-}
+    /* FOOTER FOR ALL PAGES START*/
+    footer .foot {
+        font-family: 'Vollkorn SC', serif;
+        font-size: 16px;
+        color: teal;
+    }
+    /* FOOTER FOR ALL PAGES END*/
+/* STYLES FOR ALL FILES END */
 
 /* Index/Home Page START */
     /* header for Index/Home */
-header {
-    color: white;
-    font-family: 'Vollkorn SC', serif;
-}
-    /* container for page's content */
-.RJV-container {
-    width: 100%;
-    margin-top: 20px;
-    padding-bottom: 100px;
+    header {
+        color: white;
+        font-family: 'Vollkorn SC', serif;
     }
+    /* main container for page's content */
+    .RJV-container {
+        margin-top: 10px;
+        padding-bottom: 100px;
+        }
 
-    /* left content of container for index HTML file */
-#mini-bio {
-    border: solid 4px white;
-    background-color: white;
-}
- 
-    /*right content of container for index HTML file (carousel)*/
-.carousel {
-    width: 100%;
-    border: solid white 4px;
-}
-.captions {
-    background-color: teal;
-    color: white;
-    padding: 30px;
-}
-/* Index/Home Page START */ 
+    /* ASIDE - left content*/
+    #mini-bio {
+        border: solid 4px white;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    
+    /*CAROUSEL START*/
+    .carousel {
+        width: 100%;
+        border: solid white 4px;
+    }
+    .captions {
+        background-color: teal;
+        color: white;
+        padding: 0px;
+    }
+    /*CAROUSEL END*/
+
+/* Index/Home Page END */ 
 
 /* Contact Page Styles START*/
 #contact-form {
@@ -89,15 +102,16 @@ header {
 
 #form-header {
     font-family: 'Vollkorn SC', serif;
+    color: black;
 }
 
-#form-labels {
+.form-labels {
     font-family: 'Vollkorn SC', serif;
     font-size: 25px;
 }
 .contact-card {
     margin-top: 30px;
-    margin-left: 60px;
+    margin-bottom: 70px;
     font-size: 14px;
     border: solid white 4px;
 }
@@ -115,7 +129,7 @@ header {
         background: url("./images-RJV/Victory-Mountain2.jpg");
     }
 
-    .wrapper {
+    .lead {
         width: 70%;
     }
 
@@ -146,12 +160,3 @@ header {
     /* Cards with image and captions END */
 
 /* Portfolio Page Styles END */
-
-/* FOOTER START*/
-footer .foot {
-    font-family: 'Vollkorn SC', serif;
-    font-size: 16px;
-    color: teal;
-}
-
-/* FOOTER END*/

@@ -2,28 +2,40 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Rayna J Veuleman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Reset  -->
     <link rel="stylesheet" href="./assets/reset.css">
+
+    <!-- bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Google Fonts  -->
     <link
         href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Crafty+Girls&family=Delius+Swash+Caps&family=Delius+Unicase:wght@700&family=Flavors&family=Jacques+Francois+Shadow&family=Mali:wght@500&family=Rock+Salt&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
+
+    <!-- RJV stylesheet  -->
     <link rel="stylesheet" href="./assets/style.css">
+
 </head>
 
 <body>
 
     <!-- Navbar content START-->
-    <nav class="navbar navbar-light" style="background-color: teal;" class="navbar-expand-lg bg-light">
+    <nav class="navbar navbar-light" style="background-color: teal;">
         <a class="navbar-brand" style="color: white" href=" #">Rayna J Veuleman</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Navbar 'hamburger' dropdown content -->
         <nav class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -34,20 +46,21 @@
                     <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
 
+                <!-- Navbar dropdown 'Portfolio' content -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Portfolio
                     </a>
                     <nav class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="https://rayna-v.github.io/" target="_blank">Project1</a>
-                        <a class="dropdown-item" href="#">Project2</a>
+                        <a class="dropdown-item" href="https://rayna-v.github.io/" target="_blank">Refactoring -
+                            Homework #1</a>
+                        <a class="dropdown-item" href="./ToolBox/fanpage.html" target="_blank">ToolBox - Prework</a>
                         <a class="dropdown-item" href="./portfolio.html">Gallery</a>
                     </nav>
                 </li>
             </ul>
         </nav>
-
     </nav>
     <!-- Navbar content END-->
 
@@ -56,15 +69,20 @@
     </header>
 
     <!-- Main Bio section START -->
-    <section class="RJV-container">
-        <section class="row">
-            <div class="col-md-1"></div>
-            <aside class="col-md-3" id="mini-bio">
+    <main class="RJV-container">
+        <div class="row">
+            <!-- empty column for spacing -->
+            <div class="col-lg-2 col-md-1 col-sm-0 col-xs-0"></div>
+
+            <!-- LEFT ASIDE CARD START -->
+            <aside class="col-lg-3 col-md-10 col-sm-12 col-xs-12" id="mini-bio">
+                <!-- Card Image -->
                 <figure class="row">
                     <img id="bio-card" src="./assets/images-RJV/RV_Classroom.jpeg" class="img-fluid" alt="Rayna">
                 </figure>
-                <section class="row">
-                    <section class="card">
+                <!-- Card Captions -->
+                <div class="row">
+                    <div class="card">
                         <section class="card-body">
                             <h5 class="card-title">Rayna J Veuleman</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Jr. Web Developer</h6>
@@ -74,49 +92,57 @@
                                 idea of fun. I look forward to growing and showing the world what I can do.
                             </p>
                         </section>
-                    </section>
-                </section>
+                    </div>
+                </div>
             </aside>
-            <div class="col-md-6">
+            <!-- LEFT ASIDE CARD END -->
+
+            <!-- empty column for spacing -->
+            <div class="col-xl-1 col-lg-1 col-md-2 col-sm-0"></div>
+
+            <!-- RIGHT ASIDE CAROUSEL START -->
+            <aside class="col-lg-5 col-md-10 col-sm-12 col-xs-12">
                 <div id="carouselExampleCaptionsTEST" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                     </ol>
+                    <!-- carousel images -->
                     <div class="carousel-inner" id="RJV-carousel">
-                        <div class="carousel-item active">
+                        <figure class="carousel-item active">
                             <img src="./assets/images-RJV/Helicopter.jpg" class="d-block w-100" alt="family-helicopter">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
-                        </div>
-                        <div class="carousel-item">
+                        </figure>
+                        <figure class="carousel-item">
                             <img src="./assets/images-RJV/Astronaut.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
-                        </div>
-                        <div class="carousel-item">
+                        </figure>
+                        <figure class="carousel-item">
                             <img src="./assets/images-RJV/KrugerRock.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
-                        </div>
+                        </figure>
                     </div>
 
+                    <!-- carousel captions -->
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active captions">
+                            <section class="carousel-item active captions">
                                 <h5>Who I am</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, officiis?
                                 </p>
-                            </div>
-                            <div class="carousel-item captions">
+                            </section>
+                            <section class="carousel-item captions">
                                 <h5>Interests</h5>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut dicta eius molestiae
                                     quia sapiente, obcaecati similique voluptate suscipit laborum illum distinctio,
                                     tempora vero error numquam?
                                 </p>
-                            </div>
-                            <div class="carousel-item captions">
+                            </section>
+                            <section class="carousel-item captions">
                                 <h5>Experience</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque minus nam
                                     repellat animi impedit repudiandae recusandae nemo aliquid, vero dolore, fugit
@@ -124,8 +150,9 @@
                                     blanditiis voluptatibus inventore earum natus molestias exercitationem esse nisi
                                     ipsa perspiciatis necessitatibus officiis quod omnis quis quisquam.
                                 </p>
-                            </div>
+                            </section>
 
+                            <!-- carousel button controls -->
                             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
                                 data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -139,25 +166,26 @@
                         </div>
                     </div>
                 </div>
+            </aside>
+            <!-- RIGHT ASIDE CAROUSEL END -->
 
-                <div class="col-md-1"></div>
-            </div>
-        </section>
-    </section>
+            <!-- empty column for spacing -->
+            <div class="col-md-1 col-sm-0 col-xs-0"></div>
+        </div>
+    </main>
 
     <!-- Main Bio section END -->
 
     <!-- FOOTER START -->
     <FOOTER>
         <nav class="navbar fixed-bottom navbar-light bg-light RJV-footer" style="justify-content: center">
-            <a class="navbar-brand" href="#"> <span class="foot">Responsive Portfolio ----- <b>Rayna J
-                        Veuleman</b> -----
-                    Jr. Web Developer</span></a>
+            <a class="navbar-brand" href="#"> <span class="foot">Responsive Portfolio ----- <b>Rayna J Veuleman</b>
+                    ----- Jr. Web Developer</span></a>
         </nav>
     </FOOTER>
     <!-- FOOTER END  -->
 
-
+    <!-- jquery from Bootstrap  -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
