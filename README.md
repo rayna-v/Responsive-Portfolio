@@ -24,16 +24,16 @@ while doing the following:
     * I made multiple, descriptive commits throughout my work.
 
 ### Deployment:
-
-    * GitHub repositories URL:
-        * https://github.com/rayna-v/rayna-v.io-Responsive-Portfolio
+GitHub repositories URL:
+    https://github.com/rayna-v/rayna-v.io-Responsive-Portfolio
         
-    * Live URL: 
-        * Home page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/index.html
+Live URLs: 
 
-        * Contact page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/contact.html
+  Home page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/index.html
+
+  Contact page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/contact.html
         
-        * Portfolio page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/portfolio.html
+  Portfolio page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/portfolio.html
         
 
 ## Screenshots:
