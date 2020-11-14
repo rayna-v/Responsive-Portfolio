@@ -66,6 +66,7 @@ font-family: 'Rock Salt', cursive;*/
         border: solid 4px white;
         background-color: white;
         margin-bottom: 20px;
+        padding-top: 15px;
     }
     
     /*CAROUSEL START*/
@@ -153,10 +154,14 @@ font-family: 'Rock Salt', cursive;*/
     
     .card-title {
         font-family: 'Averia Serif Libre', cursive;
+        font-size: 24px;
     }
     .card-text {
         font-size: 16px;
         font-family: 'Krub', sans-serif;
+    }
+    .fa-external-link {
+        float: right;
     }
     /* Cards with image and captions END */
 
