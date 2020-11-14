@@ -25,25 +25,25 @@ while doing the following:
 
 ### Deployment:
 GitHub repositories URL:
-    https://github.com/rayna-v/rayna-v.io-Responsive-Portfolio
+    https://github.com/rayna-v/Responsive-Portfolio
         
 Live URLs: 
 
-  Home page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/index.html
+  Home page: https://rayna-v.github.io/Responsive-Portfolio/index.html
 
-  Contact page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/contact.html
+  Contact page: https://rayna-v.github.io/Responsive-Portfolio/contact.html
         
-  Portfolio page: https://rayna-v.github.io/rayna-v.io-Responsive-Portfolio/portfolio.html
+  Portfolio page: https://rayna-v.github.io/Responsive-Portfolio/portfolio.html
         
 
 ## Screenshots:
 
    ### Home page: 
-   ![screenshot](https://github.com/rayna-v/rayna-v.io-Responsive-Portfolio/blob/main/HomePage.PNG)
+   ![screenshot](https://github.com/rayna-v/Responsive-Portfolio/blob/main/HomePage.PNG)
    
    ### Contact page: 
-  ![screenshot](https://github.com/rayna-v/rayna-v.io-Responsive-Portfolio/blob/main/ContactPage.PNG)
+  ![screenshot](https://github.com/rayna-v/Responsive-Portfolio/blob/main/ContactPage.PNG)
    
    ### Portfolio page:
-   ![screenshot](https://github.com/rayna-v/rayna-v.io-Responsive-Portfolio/blob/main/PortfolioPage.PNG)
+   ![screenshot](https://github.com/rayna-v/Responsive-Portfolio/blob/main/PortfolioPage.PNG)
 
