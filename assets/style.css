@@ -46,6 +46,12 @@ font-family: 'Rock Salt', cursive;*/
         font-size: 16px;
         color: teal;
     }
+
+    @media only screen and (max-width: 600px) {
+        text- {
+          background-color: lightblue;
+        }
+      }
     /* FOOTER FOR ALL PAGES END*/
 /* STYLES FOR ALL FILES END */
 
@@ -74,11 +80,28 @@ font-family: 'Rock Salt', cursive;*/
         width: 100%;
         border: solid white 4px;
         background-color: white;
+        /* padding: 0 auto; */
     }
     .captions {
-        background-color: teal;
+        background-color:rgba(5, 5, 5, 0.4);
         color: white;
-        padding: 30px;
+        z-index: 1;
+        width: 105%;
+        margin-left: -80px;
+        padding-left: 20px;
+        padding-right: 30px;
+        font-family: 'Krub', sans-serif
+    }
+
+    .carousel-caption-header {
+        font-family: 'Mali', cursive
+    }
+
+    .carousel-control-prev {
+        z-index: 2;
+    }
+    .carousel-control-next {
+        z-index: 2;
     }
     /*CAROUSEL END*/
 
